@@ -1,0 +1,36 @@
+#slideshow {
+	width: 520px;	height: 320px;
+	position:relative;
+	overflow: hidden;
+  margin:1em 0;
+}
+
+#slideshow ul {
+	margin: 0; padding:0;
+}
+
+#slideshow li {
+	position:absolute; top: 0; left: 0;
+  width: 520px;	height: 320px;
+	list-style: none;
+  display: none;
+}
+
+#slideshow h2 {
+  background-color: rgba(0,0,0,0.4); color: #FFF;
+  position: absolute; bottom:0; left: 0;
+  width: 100%; margin: 0; padding: 20px;	
+}
+
+#next, #prev {
+  color: #fff;
+  position: absolute; bottom:10px;
+}
+
+#next {
+  right: 10px;
+}
+
+#prev {
+  right:60px;
+}

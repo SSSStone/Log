@@ -1,0 +1,17 @@
+html { background-color:gray; }
+body { padding:10px; margin:1em auto; background-color:white; font:14px/20px Verdana, sans-serif; }
+body, #header, #footer { width:740px; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+#header { padding:30px 0; background-color:royalBlue; color:white; text-align:center; }
+#header h1 a { color:white; }
+
+#content { width:720px; padding:10px; overflow:auto; background:url(content-background.png) top right repeat-y; }
+
+#main { width:520px; float:left; }
+
+#navigation { width:160px; float:right; }
+#navigation ul{ margin:0; padding:0; list-style:none; }
+
+#footer { padding:5px 0; background-color:lightGrey; color:gray; text-align:center; }

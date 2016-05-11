@@ -1,0 +1,11 @@
+table, th, td { border:1px solid #999; border-collapse:collapse; }
+table { width:100%; }
+th, td { padding:0; text-align:center; }
+input[type=number] { width:50px; text-align:center; }
+.cart-summary th { text-align:right; }
+a { text-decoration:none; color:#00f; }
+img { border:0; margin:5px 10px 5px 5px; vertical-align:middle; }
+.description { text-align:left; }
+.qty { -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.remove { color:#999; cursor:pointer; font-size:20px; }
+.remove:hover { color:#c00; text-decoration:none; }
