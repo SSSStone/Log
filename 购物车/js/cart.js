@@ -41,7 +41,7 @@ function updateTotal() {
 }
 
 function updateQty() {
-
+  test = this;
   // Get the quantity value from the input
   var qtyNumber = this.value;
   // Is the quantity less than 1?
